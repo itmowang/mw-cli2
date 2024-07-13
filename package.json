@@ -1,0 +1,28 @@
+{
+  "name": "create-mw",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx  unbuild --stub"
+  },
+  "bin": {
+    "cre": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.14.10",
+    "@types/prompts": "^2.4.9",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "unbuild": "^2.0.0"
+  }
+}
